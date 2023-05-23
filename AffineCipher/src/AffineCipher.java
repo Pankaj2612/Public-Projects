@@ -68,7 +68,7 @@ public static int modInverse(int a) {
         System.out.println("Hi Welcome , This is a Affine Cipher ");
         
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter The Text You Want to Encrypt / Decrypt : ");
+        System.out.print("Enter The Text You Want to Encrypt / Decrypt , if you want to encrypt data  please enter in Lowercase and if you want to decrypt enter in Uppercase Message :  ");
         String Input = sc.next();
 
         if(Input.equals(Input.toLowerCase())){
